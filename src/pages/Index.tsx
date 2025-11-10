@@ -185,9 +185,11 @@ const Index = () => {
 
           <div className="grid md:grid-cols-3 gap-6">
             <Card className="overflow-hidden hover:shadow-lg transition-all hover:-translate-y-1">
-              <div className="h-48 bg-gradient-to-br from-primary to-primary/70 flex items-center justify-center">
-                <Icon name="Medal" className="text-primary-foreground" size={64} />
-              </div>
+              <img 
+                src="https://cdn.poehali.dev/projects/52aac053-15b6-4efc-8d53-8b730e27e5b0/files/d883134f-4557-400b-b421-a13582d7cbae.jpg" 
+                alt="Кевин Мартин" 
+                className="w-full h-64 object-cover"
+              />
               <CardContent className="p-6">
                 <Badge className="mb-3 bg-accent">Канада</Badge>
                 <h4 className="text-xl font-heading font-semibold mb-2">Кевин Мартин</h4>
@@ -203,9 +205,11 @@ const Index = () => {
             </Card>
 
             <Card className="overflow-hidden hover:shadow-lg transition-all hover:-translate-y-1">
-              <div className="h-48 bg-gradient-to-br from-primary to-primary/70 flex items-center justify-center">
-                <Icon name="Award" className="text-primary-foreground" size={64} />
-              </div>
+              <img 
+                src="https://cdn.poehali.dev/projects/52aac053-15b6-4efc-8d53-8b730e27e5b0/files/9be4ac39-e03c-492a-a8ab-33d75e1ff646.jpg" 
+                alt="Анетт Норберг" 
+                className="w-full h-64 object-cover"
+              />
               <CardContent className="p-6">
                 <Badge className="mb-3 bg-accent">Швеция</Badge>
                 <h4 className="text-xl font-heading font-semibold mb-2">Анетт Норберг</h4>
@@ -221,9 +225,11 @@ const Index = () => {
             </Card>
 
             <Card className="overflow-hidden hover:shadow-lg transition-all hover:-translate-y-1">
-              <div className="h-48 bg-gradient-to-br from-primary to-primary/70 flex items-center justify-center">
-                <Icon name="Star" className="text-primary-foreground" size={64} />
-              </div>
+              <img 
+                src="https://cdn.poehali.dev/projects/52aac053-15b6-4efc-8d53-8b730e27e5b0/files/684573d9-bd3a-491c-9f21-b23251699c4c.jpg" 
+                alt="Ева Мюрхед" 
+                className="w-full h-64 object-cover"
+              />
               <CardContent className="p-6">
                 <Badge className="mb-3 bg-accent">Великобритания</Badge>
                 <h4 className="text-xl font-heading font-semibold mb-2">Ева Мюрхед</h4>
